@@ -97,9 +97,39 @@ export default function App() {
         </div>
       </section>
 
-      <footer>
-        © 2026 Andean Market Access. All rights reserved.
-      </footer>
+    <footer>
+  <div
+    style={{
+      marginBottom: '24px',
+      background: 'rgba(255,255,255,0.06)',
+      border: '1px solid rgba(255,255,255,0.08)',
+      borderRadius: '20px',
+      padding: '24px',
+      maxWidth: '900px',
+      marginInline: 'auto',
+      textAlign: 'left'
+    }}
+  >
+    <div
+      style={{
+        fontSize: '18px',
+        fontWeight: '700',
+        color: '#ffffff',
+        marginBottom: '16px'
+      }}
+    >
+      Our Offices
     </div>
-  )
-}
+
+    <div style={{ marginBottom: '10px', color: '#ffffff' }}>
+      <strong>USA Office</strong> — 8118 NW 108TH CT. Ft. Lauderdale, FL, USA
+    </div>
+
+    <div style={{ color: '#ffffff' }}>
+      <strong>Colombia Office</strong> — Av. Cra. 19 # 100 - 53. Bogotá, D.C.,
+      Colombia
+    </div>
+  </div>
+
+  © 2026 Andean Market Access. All rights reserved.
+</footer>
