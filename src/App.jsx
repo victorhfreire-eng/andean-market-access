@@ -133,3 +133,6 @@ export default function App() {
 
   © 2026 Andean Market Access. All rights reserved.
 </footer>
+</div>
+  )
+}      
